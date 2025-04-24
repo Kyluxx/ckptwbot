@@ -1,0 +1,53 @@
+{
+  "name": "ckptw-wabot",
+  "version": "1.3.2-beta.2",
+  "description": "WhatsApp Bot with @mengkodingan/ckptw.",
+  "main": "index.js",
+  "directories": {
+    "commands": "commands",
+    "events": "events",
+    "tools": "tools"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:adapter": "node install-adapter.js",
+    "start": "node .",
+    "start:pm2": "pm2 start ./index.js --name $(basename $(pwd))"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsreimau/ckptw-wabot.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "whatsapp-bot"
+  ],
+  "author": "Muhamad Ikbal Maulana | ItsReimau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsreimau/ckptw-wabot/issues"
+  },
+  "homepage": "https://github.com/itsreimau/ckptw-wabot#readme",
+  "dependencies": {
+    "@mengkodingan/ckptw": "^4.4.9",
+    "@mengkodingan/consolefy": "^1.0.1",
+    "@zanixongroup/uploader": "^2.0.5",
+    "axios": "^1.8.4",
+    "cfonts": "^3.3.0",
+    "didyoumean": "^1.2.2",
+    "file-type": "16.5.4",
+    "form-data": "^4.0.2",
+    "jimp": "0.16.1",
+    "jsdom": "^26.1.0",
+    "link-preview-js": "^3.0.14",
+    "mime-types": "2.1.35",
+    "moment-timezone": "^0.5.48",
+    "simpl.db": "^2.13.0",
+    "wa-sticker-formatter": "^4.4.4"
+  },
+  "optionalDependencies": {
+    "baileys-mysql": "^1.0.4",
+    "baileys-mongodb": "^1.0.9",
+    "baileys-firebase": "^1.0.1"
+  }
+}
