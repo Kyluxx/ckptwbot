@@ -5,7 +5,7 @@ node_modules/
 state/
 
 # Ignore config.js file
-config.js
+
 
 # Ignore database.json file
 database.json
