@@ -72,9 +72,9 @@ global.config = {
     // Informasi owner bot
     owner: {
         name: "Kyluxx", // Nama owner bot
-        organization: "", // Nama organisasi owner bot
+        organization: "Luxx", // Nama organisasi owner bot
         id: "62895634600989", // Nomor telepon owner bot
-        co: [""] // Nomor co-owner bot
+        co: ["-"] // Nomor co-owner bot
     },
 
     // Stiker bot
