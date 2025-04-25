@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 
 # Copy package files and install dependencies
 COPY package.json ./
-RUN npm install && npm run install:adapter
+RUN npm install
 
 # Install system dependencies
 RUN apt-get update && \
@@ -13,6 +13,7 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     rm -rf /var/lib/apt/lists/*
 
+RUN npm run install:adapter
 # Copy the rest of the application files
 COPY . .
 
