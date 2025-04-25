@@ -18,7 +18,7 @@ global.config = {
 
         // Konfigurasi autentikasi sesi bot
         authAdapter: {
-            adapter: "mysql", // Adapter untuk menyimpan sesi (Pilihan adapter: default, mysql, mongo, firebase)
+            adapter: "default", // Adapter untuk menyimpan sesi (Pilihan adapter: default, mysql, mongo, firebase)
 
             // Konfigurasi default
             default: {
@@ -91,7 +91,7 @@ global.config = {
         autoRead: false, // Bot baca pesan otomatis
         autoTypingOnCmd: true, // Tampilkan status "sedang mengetik" saat memproses perintah
         cooldown: 0, // Jeda antar perintah (ms)
-        maxListeners: 10, // Max listeners untuk events
+        maxListeners: 100, // Max listeners untuk events
         port: 3000, // Port (jika pakai server)
         reportErrorToOwner: true, // Laporkan kesalahan ke owner bot
         restrict: false, // Batasi akses perintah
