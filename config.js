@@ -30,7 +30,7 @@ global.config = {
                 host: "mysql-kyluxx.alwaysdata.net", // Nama host 
                 user: "kyluxx", // Nama pengguna
                 password: "kuhabB4MX", // Kata sandi
-                database: "kyluxx_wabot" // Nama database
+                database: "kyluxx_botwa" // Nama database
             },
 
             // Konfigurasi MongoDB
