@@ -18,7 +18,7 @@ global.config = {
 
         // Konfigurasi autentikasi sesi bot
         authAdapter: {
-            adapter: "default", // Adapter untuk menyimpan sesi (Pilihan adapter: default, mysql, mongo, firebase)
+            adapter: "mysql", // Adapter untuk menyimpan sesi (Pilihan adapter: default, mysql, mongo, firebase)
 
             // Konfigurasi default
             default: {
@@ -27,10 +27,10 @@ global.config = {
 
             // Konfigurasi MySQL
             mysql: {
-                host: "localhost:3306", // Nama host 
-                user: "root", // Nama pengguna
-                password: "admin123", // Kata sandi
-                database: "ckptw-wabot" // Nama database
+                host: "mysql-kyluxx.alwaysdata.net", // Nama host 
+                user: "kyluxx", // Nama pengguna
+                password: "kuhabB4MX", // Kata sandi
+                database: "kyluxx_wabot" // Nama database
             },
 
             // Konfigurasi MongoDB
