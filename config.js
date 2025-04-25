@@ -61,7 +61,7 @@ global.config = {
         restrict: quote("⛔ Perintah ini telah dibatasi karena alasan keamanan!"), // Pesan pembatasan perintah
 
         readmore: "\u200E".repeat(4001), // String read more
-        note: "“Lorem ipsum dolor sit amet, tenebris in umbra, vitae ad mortem.”", // Catatan
+        note: "“Livi BOT — By Luxx.”", // Catatan
         footer: italic("Developed by Kyluxx"), // Footer di pesan bot
 
         wait: quote("🔄 Tunggu sebentar..."), // Pesan loading
@@ -88,10 +88,10 @@ global.config = {
         alwaysOnline: true, // Bot selalu berstatus "online"
         antiCall: false, // Bot secara otomatis membanned orang yang menelepon
         autoMention: true, // Bot otomatis mention seseorang dalam pesan yang dikirim
-        autoRead: true, // Bot baca pesan otomatis
+        autoRead: false, // Bot baca pesan otomatis
         autoTypingOnCmd: true, // Tampilkan status "sedang mengetik" saat memproses perintah
-        cooldown: 100, // Jeda antar perintah (ms)
-        maxListeners: 50, // Max listeners untuk events
+        cooldown: 0, // Jeda antar perintah (ms)
+        maxListeners: 10, // Max listeners untuk events
         port: 3000, // Port (jika pakai server)
         reportErrorToOwner: true, // Laporkan kesalahan ke owner bot
         restrict: false, // Batasi akses perintah
@@ -102,6 +102,6 @@ global.config = {
         uploaderHost: "FastUrl", // Host uploader untuk menyimpan media (Tersedia: Catbox, Cloudku, Erhabot, FastUrl, IDNet, Litterbox, Pomf, Quax, quax, ryzen, shojib, TmpErhabot, Uguu, Videy)
         useCoin: true, // Pakai koin
         usePairingCode: true, // Pakai kode pairing untuk koneksi
-        useServer: false // Jalankan bot dengan server
+        useServer: true // Jalankan bot dengan server
     }
 };
